@@ -26,10 +26,10 @@ module.exports = {
 			session2: "noon",
 			session3: "afternoon",
 			session4: "evening",
-			welcomeMessage: "Thank you for inviting me to the group!\nBot prefix: %1\nTo view the list of commands, please enter: %1help",
+			welcomeMessage: "━━━━━━━━━━━━━━━━━━━━━━━━━━\n\n❁𝐉𝐔𝐁𝐀𝐘𝐄𝐑𓇽𝐊𝐎𝐎𝐊𝐈𝐄☔︎ 𝗖𝗢𝗡𝗡𝗘𝗖𝗧𝗘𝗗 𝗦𝗨𝗖𝗖𝗘𝗦𝗙𝗨𝗟𝗟\n━━━━━━━━━━━━━━━━━━━━━━━━━━\n\n𝗕𝗢𝗧 𝗔𝗗𝗠𝗜𝗡: 𝐌𝐎𝐇𝐀𝐌𝐌𝐀𝐃 𝐉𝐔𝐁𝐀𝐘𝐄𝐑\n━━━━━━━━━━━━━━━━━━━━━━━━━━\n\n𝗙𝗔𝗖𝗘𝗕𝗢𝗢𝗞: https://www.facebook.com/xnxx.chrome\n\n━━━━━━━━━━━━━━━━━━━━━━━━━━\n\n𝗪𝗛𝗔𝗧𝗦 𝗔𝗣𝗣: wa.me/+8801*******65\n\n━━━━━━━━━━━━━━━━━━━━━━━━━━\n\n𝗧𝗘𝗟𝗘𝗚𝗥𝗔𝗠: t.me/𝐌𝐎𝐇𝐀𝐌𝐌𝐀𝐃𝐉𝐔𝐁𝐀𝐘𝐄𝐑\n\n━━━━━━━━━━━━━━━━━━━━━━━━━━ ",
 			multiple1: "you",
 			multiple2: "you guys",
-			defaultWelcomeMessage: `Hello {userName}.\nWelcome {multiple} to the chat group: {boxName}\nHave a nice {session} 😊`
+			defaultWelcomeMessage: `𝗔𝗦𝗦𝗔𝗟𝗔𝗠𝗨 𝗔𝗟𝗔𝗜𝗞𝗨𝗠-﷼-!💫       {userName}.\n𝗔𝗠𝗔𝗗𝗘𝗥 𝗚𝗥𝗢𝗨𝗣 𝗔      {multiple}   𝗔𝗣𝗡𝗔𝗥 𝗦𝗔𝗚𝗢𝗧𝗢𝗠-!!༉‧₊˚.😍:           \n{boxName}        \n𝗪𝗘𝗟𝗖𝗢𝗠𝗘ೄྀ࿐ ˊˎ-          !  「 ✦ {session} ✦ 」  💫`
 		}
 	},
 
