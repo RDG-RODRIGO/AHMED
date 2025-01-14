@@ -6,7 +6,7 @@ const getCurrentTime = () => colors.gray(moment().tz('Asia/Ho_Chi_Minh').format(
 function logError(prefix, message) {
 	if (message === undefined) {
 		message = prefix;
-		prefix = "ERROR";
+		prefix = "JUBAYER ERROR";
 	}
 	process.stderr.write(`\r${`${getCurrentTime()} ${colors.redBright(`${characters} ${prefix}:`)} ${message}`}`);
 }
@@ -17,28 +17,28 @@ module.exports = {
 	warn: function (prefix, message) {
 		if (message === undefined) {
 			message = prefix;
-			prefix = "WARN";
+			prefix = "JUBAYER WARN";
 		}
 		process.stderr.write(`\r${`${getCurrentTime()} ${colors.yellowBright(`${characters} ${prefix}:`)} ${message}`}`);
 	},
 	info: function (prefix, message) {
 		if (message === undefined) {
 			message = prefix;
-			prefix = "INFO";
+			prefix = "JUBAYER INFO";
 		}
 		process.stderr.write(`\r${`${getCurrentTime()} ${colors.greenBright(`${characters} ${prefix}:`)} ${message}`}`);
 	},
 	succes: function (prefix, message) {
 		if (message === undefined) {
 			message = prefix;
-			prefix = "SUCCES";
+			prefix = "JUBAYER SUCCES";
 		}
 		process.stderr.write(`\r${`${getCurrentTime()} ${colors.cyanBright(`${characters} ${prefix}:`)} ${message}`}`);
 	},
 	master: function (prefix, message) {
 		if (message === undefined) {
 			message = prefix;
-			prefix = "MASTER";
+			prefix = "BAYJID MASTER";
 		}
 		process.stderr.write(`\r${`${getCurrentTime()} ${colors.hex("#eb6734", `${characters} ${prefix}:`)} ${message}`}`);
 	}
