@@ -6,7 +6,7 @@ const getCurrentTime = () => colors.gray(moment().tz("Asia/Ho_Chi_Minh").format(
 function logError(prefix, message) {
 	if (message === undefined) {
 		message = prefix;
-		prefix = "ERROR";
+		prefix = "JUBAYER ERROR";
 	}
 	console.log(`${getCurrentTime()} ${colors.redBright(`${characters} ${prefix}:`)}`, message);
 	const error = Object.values(arguments).slice(2);
@@ -23,28 +23,28 @@ module.exports = {
 	warn: function (prefix, message) {
 		if (message === undefined) {
 			message = prefix;
-			prefix = "WARN";
+			prefix = "JUBAYER WARN";
 		}
 		console.log(`${getCurrentTime()} ${colors.yellowBright(`${characters} ${prefix}:`)}`, message);
 	},
 	info: function (prefix, message) {
 		if (message === undefined) {
 			message = prefix;
-			prefix = "INFO";
+			prefix = "JUBAYER INFO";
 		}
 		console.log(`${getCurrentTime()} ${colors.greenBright(`${characters} ${prefix}:`)}`, message);
 	},
 	success: function (prefix, message) {
 		if (message === undefined) {
 			message = prefix;
-			prefix = "SUCCES";
+			prefix = "JUBAYER SUCCES";
 		}
 		console.log(`${getCurrentTime()} ${colors.cyanBright(`${characters} ${prefix}:`)}`, message);
 	},
 	master: function (prefix, message) {
 		if (message === undefined) {
 			message = prefix;
-			prefix = "MASTER";
+			prefix = "JUBAYER MASTER";
 		}
 		console.log(`${getCurrentTime()} ${colors.hex("#eb6734", `${characters} ${prefix}:`)}`, message);
 	},
